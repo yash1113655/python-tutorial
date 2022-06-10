@@ -488,6 +488,42 @@ print("Factorial of", num, "is", f)<br>
       Enter the number:5<br>
 Factorial of 5 is 120<br>
     </div>
+     
+      <div class="container">
+    <h2 class="heading">factorial</h2>
+    <h3 class="heading">code</h3>
+    <div class="code">
+      min_age=0<br>
+max_age=100<br>
+for i in range(1,10):<br>
+  Guess_age=int((min_age+max_age)/2)<br>
+  print("guessed age=",Guess_age)<br>
+  Ans=input("Are you "+str(Guess_age)+ " years old?")<br>
+  if Ans=="correct":<br>
+    print("perfect!")<br>
+    break<br>
+  elif Ans=='more':<br>
+    min_age=Guess_age<br>
+  elif Ans=='less':<br>
+    max_age=Guess_age<br>
+  else:<br>
+    print("your answer is wrong")<br>    
+
+
+    </div>
+    
+    <h3 class="heading">output</h3>
+    <div class="output">
+     guessed age= 50<br>
+Are you 50 years old?less<br>
+guessed age= 25<br>
+Are you 25 years old?less<br>
+guessed age= 12<br>
+Are you 12 years old?more<br>
+guessed age= 18<br>
+Are you 18 years old?correct<br>
+perfect! <br>
+    </div>
 
   <script src="pf.js"></script>
 </body>
