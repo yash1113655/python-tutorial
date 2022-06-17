@@ -28,5 +28,17 @@ function fixLines() {
       var lines = container[i].innerHTML.split("<br>").length;
       container[i].style.backgroundSize = "100% " + (height / (lines - 1) * 2) + "px";
   }
+  const readMoreBtn = document.querySelector('.read-more-btn');
+  const discription = document.querySelector('.discription');
   
+  
+  readMoreBtn.addEventListener('click',(e)=>{
+    discription.classList.toggle('show-more');
+    if(readMoreBtn.innerText === 'Read More'){
+      readMoreBtn.innerText = 'Read Less';
+    }else{
+       readMoreBtn.innerText = 'Read More';
+    }
+  })
+
 }
