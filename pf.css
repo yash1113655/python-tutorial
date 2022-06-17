@@ -107,7 +107,7 @@ body{
   font-size: 20px;
   cursor: pointer;
 }
-.description.show-more .moredescription{
+.description.show-more .moreDescription{
   display: inline;
 }
     
