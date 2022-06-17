@@ -47,10 +47,10 @@ function fixLines() {
   
   
 function readMore(btn){
-  let post = btn.parentElement;
-  post.querySelectorAll(".dots").classList.toggle
+  let description = btn.parentElement;
+  description.querySelectorAll(".dots").classList.toggle
   ("hide");
-  post.querySelectorAll(".more").classList.toggle
+  description.querySelectorAll(".more").classList.toggle
   ("hide");
   btn.textDescription == "Read More" ? btn.textDescription = "Read Less" : btn.textDescription = "Read More";
 
