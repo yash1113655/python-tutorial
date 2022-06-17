@@ -32,6 +32,6 @@ function fixLines() {
   const description = document.querySelector('.description');
   
   readMoreBtn.addEventListener('clcik',(e)=>{
-    description.classlist.toggle('show-more');
+    description.classList.toggle('show-more');
   }
 }
