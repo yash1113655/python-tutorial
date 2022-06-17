@@ -28,7 +28,7 @@ function fixLines() {
       var lines = container[i].innerHTML.split("<br>").length;
       container[i].style.backgroundSize = "100% " + (height / (lines - 1) * 2) + "px";
   }
-  let noOfCharac = 150;
+  let noOfCharac = 15;
   let description = document.querySelectorAll(".description");
   description.forEach(description => {
     if(description.textDescription.length < noOfCharac){
@@ -48,16 +48,11 @@ function fixLines() {
   
 function readMore(btn){
   let post = btn.parentElement;
-  post.querySelector(".dots").classList.toggle
+  post.querySelectorAll(".dots").classList.toggle
   ("hide");
-  post.querySelector(".more").classList.toggle
+  post.querySelectorAll(".more").classList.toggle
   ("hide");
   btn.textDescription == "Read More" ? btn.textDescription = "Read Less" : btn.textDescription = "Read More";
 
 }
-  
-
-    
-    
-      
 }
