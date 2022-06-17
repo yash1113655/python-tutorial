@@ -28,7 +28,7 @@ function fixLines() {
       var lines = container[i].innerHTML.split("<br>").length;
       container[i].style.backgroundSize = "100% " + (height / (lines - 1) * 2) + "px";
   }
-  let noOfCharac = 15;
+  let noOfCharac = 150;
   let description = document.querySelectorAll(".description");
   description.forEach(description => {
     if(description.textDescription.length < noOfCharac){
