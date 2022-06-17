@@ -107,6 +107,9 @@ body{
   font-size: 20px;
   cursor: pointer;
 }
+.description.show-more .moredescription{
+  display: inline;
+}
     
 
 #titleContainer{
