@@ -44,14 +44,4 @@ function fixLines() {
       <span class ="hide more">${moreText}</span> ;
     }
 });
-  
-  
-function readMore(btn){
-  let description = btn.parentElement;
-  description.querySelector(".dots").classList.toggle
-  ("hide");
-  description.querySelector(".more").classList.toggle
-  ("hide");
-  btn.textDescription == "Read More" ? btn.textDescription = "Read Less" : btn.textDescription = "Read More";
-}
 }
