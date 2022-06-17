@@ -29,11 +29,11 @@ function fixLines() {
       container[i].style.backgroundSize = "100% " + (height / (lines - 1) * 2) + "px";
   }
   const readMoreBtn = document.querySelector('.read-more-btn');
-  const discription = document.querySelector('.discription');
+  const description = document.querySelector('.description');
   
   
   readMoreBtn.addEventListener('click',(e)=>{
-    discription.classList.toggle('show-more');
+    description.classList.toggle('show-more');
     if(readMoreBtn.innerText === 'Read More'){
       readMoreBtn.innerText = 'Read Less';
     }else{
