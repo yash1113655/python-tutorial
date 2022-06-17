@@ -53,6 +53,5 @@ function readMore(btn){
   description.querySelector(".more").classList.toggle
   ("hide");
   btn.textDescription == "Read More" ? btn.textDescription = "Read Less" : btn.textDescription = "Read More";
-
 }
 }
