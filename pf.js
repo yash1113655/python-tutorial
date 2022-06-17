@@ -28,8 +28,8 @@ function fixLines() {
       var lines = container[i].innerHTML.split("<br>").length;
       container[i].style.backgroundSize = "100% " + (height / (lines - 1) * 2) + "px";
   }
-  const readMoreBtn = document.querySelector('.read-more-btn');
-  const description = document.querySelector('.description');
+  const readMoreBtn = document.querySelectorAll('.read-more-btn');
+  const description = document.querySelectorAll('.description');
   
   readMoreBtn.addEventListener('click',(e)=>{
     description.classList.toggle('show-more');
