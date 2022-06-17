@@ -98,7 +98,7 @@ body{
 .moreDescription{
    display: none;
 }
-.read-more-btn{
+.description button{
   padding: 15px 60px;
   background-color :rgb(149,170,197);
   color:rgb(53,49,49);
@@ -107,8 +107,8 @@ body{
   font-size: 20px;
   cursor: pointer;
 }
-.description.show-more .moreDescription{
-  display: inline;
+.description:not(:last-child){
+    margin-bottom: 50px;
 }
 .hide{
   display: none;
