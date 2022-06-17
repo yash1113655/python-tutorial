@@ -110,6 +110,9 @@ body{
 .description.show-more .moreDescription{
     display: inline;
 }
+.description.show-more .dots{
+   display: none;
+}
     
 
 #titleContainer{
