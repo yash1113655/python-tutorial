@@ -110,6 +110,9 @@ body{
 .description.show-more .moreDescription{
   display: inline;
 }
+.hide{
+  display: none;
+}
     
 
 #titleContainer{
