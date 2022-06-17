@@ -28,4 +28,5 @@ function fixLines() {
       var lines = container[i].innerHTML.split("<br>").length;
       container[i].style.backgroundSize = "100% " + (height / (lines - 1) * 2) + "px";
   }
+  
 }
