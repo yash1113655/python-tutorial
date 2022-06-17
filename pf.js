@@ -28,10 +28,10 @@ function fixLines() {
       var lines = container[i].innerHTML.split("<br>").length;
       container[i].style.backgroundSize = "100% " + (height / (lines - 1) * 2) + "px";
   }
-  const redMoreBtn = document.queryselector('.read-more-btn');
+  const readMoreBtn = document.querySelector('.read-more-btn');
   const description = document.querySelector('.description');
   
-  readMoreBtn.addEventListener('clcik',(e)=>{
+  readMoreBtn.addEventListener('click',(e)=>{
     description.classList.toggle('show-more');
-  }
+  })
 }
