@@ -14,7 +14,7 @@ body{
     background: linear-gradient(
         to bottom,
         #d0bebe,
-        #9f2929
+        #000000
     );
     background-size: 100% 100%;
 }
@@ -26,24 +26,24 @@ body{
     padding-top: 1px;
     padding-bottom: 2px;
     border-radius: 10px;
-    background-color: rgba(132, 95, 95, 0.5);
-    border: 3px dashed #1c4d64;
+    background-color: rgba(129, 117, 117, 0.5);
+    border: 3px dashed #0089c9;
 }
 
 .heading{
-    color: #fff7f7;
+    color: #7b5e5eca;
     text-decoration: underline;
     font-size: 2em;
 }
 
 .code{
-    border-left: 5px solid #ab3939;
+    border-left: 5px solid #897272;
     background: linear-gradient(
         to bottom,
-        #988686,
-        #ac7171 50%,
-        #5983c2 50%,
-        #5a4747
+        #d1c2c2,
+        #3d3939 50%,
+        #fbfdff 50%,
+        #e6b3b3
     );
     background-size: 100% 36px;
     border-radius: 5px;
