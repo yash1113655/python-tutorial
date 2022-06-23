@@ -91,27 +91,24 @@ body{
 }
 
 .description{
-    margin: 10px;
-    color: #2e2727;
-    font-size: 1.5em;
+           font-family: "Poppins",sans-serif;
+
 }
-.moreDescription{
-   display: none;
+.description p{
+           font-size: 14px;
 }
-.read-more-btn{
-  padding: 15px 60px;
-  background-color :rgb(7, 7, 7);
-  color:rgb(255, 251, 251);
-  border: none;
-  outline: none;
-  font-size: 20px;
-  cursor: pointer;
+.description button{
+           padding: 10px;
+           background-color: #ff0268;
+           color: #ffffff;
+           border: none;
+           cursor: pointer;
 }
-.description.show-more .moreDescription{
-    display: inline;
+.description:not(:last-child){
+           margin-bottom: 50px;
 }
-.description.show-more .dots{
-   display: none;
+.hide{
+    display: none;
 }
     
 
