@@ -42,7 +42,7 @@ body{
         to bottom,
         #d1c2c2,
         #3d3939 50%,
-        #fbfdff 50%,
+        #1a60a7 50%,
         #e6b3b3
     );
     background-size: 100% 36px;
@@ -55,7 +55,7 @@ body{
 }
 
 .input{
-    border-left: 5px solid #179fdd;
+    border-left: 5px solid #47545b;
     background: linear-gradient(
         to bottom,
         #FFFFFF,
@@ -73,7 +73,7 @@ body{
 }
 
 .output{
-    border-left: 5px solid #8a9399;
+    border-left: 5px solid #081c29;
     background: linear-gradient(
         to bottom,
         #FFFFFF,
@@ -92,7 +92,7 @@ body{
 
 .description{
     margin: 10px;
-    color: #f0f0f0;
+    color: #2e2727;
     font-size: 1.5em;
 }
 .moreDescription{
