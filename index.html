@@ -5,9 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width" />
   <title>Python Tutorial</title>
-  <style>
-        title{text-align: left;}
-  </style>
   <link rel="stylesheet" href="pf.css" />
 </head>
 
@@ -15,12 +12,12 @@
   <div id="background"></div>
 
   <div class="container" id="titleContainer">
-    <h1 id="title">Python Tutorials</h1>
-    <h6 id="author">by VIIT-students</h6>
+    <h1 id="title">Python Tutorial</h1>
+    <h6 id="author">by VIIT students</h6>
   </div>
 
   <div class="container">
-    <h2 class="heading">Table of contents</h2>
+    <h2 class="heading">table of contents</h2>
     <ul id="tableOfContents">
       <li>print-statement</li>
       <li>variables - integers and floats</li>
@@ -33,8 +30,6 @@
       <li>while-loop</li>
       <li>for-loop</li>
       <li>lists</li>
-      <li>factorial</li>
-      <li>Age Calculator</li>
     </ul>
   </div>
 
@@ -60,18 +55,18 @@
       3 1 4<br>
       1 23<br>
     </div>
-
      
+    
     <p class="description">
-     The print-statement accepts any number arguments inside the parentheses seperated by <span class ="dots">
-      commas. The arguments get printed to the console seperated by spaces and then at the end by default an line break is placed. 
+      The print-statement accepts any number arguments inside the parentheses seperated by
+      commas.<button onclick="doSomething()" style="background-color:black"></button>4 The arguments get printed to the console
+      seperated by spaces and then at the end by default an line break is placed. <br>
       To change the default value at the end, you introduce one argument with end="".
       The print-statement can print numbers and Strings(multiple characters inside quotationmarks).
       Forgeting the quotationmarks in the print-statment often leds to errors, unless there is a
-      variable with that name, then the current value of the variable is printed.<span class="moreDescription">
-      </span>
+      variable with that name, then the current value of the variable is printed.
     </p>
-    <button class="read-more-btn">Read More</button>
+    </button>
   </div>
 
   <div class="container">
@@ -108,8 +103,8 @@
     </div>
 
     <p class="description">
-      Variables can be defined by writing the name you what to give them followed
-      by an equal-sign followed by their value.<br>
+      Variables can be defined by writing the name you what to give them followed by an equal-sign
+      followed by their value.<br>
       Assining new values works exactly the same. When you want to add(+), subtract(-), multiply(*),
       divide(/), whole-divide(//) or do modulo(%) on your variable, you can either write that your variable is equal
       to an expression, which will be evaluated and then assigned to the variable or you can write
@@ -118,7 +113,6 @@
       The 'normal' divison results in an floating point value, whereas whole-division results in
       integer values (if the numbers were integer).
     </p>
-    <button onclick="readMore(this)">Read More</button>
   </div>
 
   <div class="container">
@@ -150,8 +144,6 @@
       Adding a String with a number results in an error.
       To change a number to a String you can use str(). To do the reverse you can use int().
     </p>
-    <button onclick="readMore(this)">Read More</button>
-    
   </div>
 
   <div class="container">
@@ -182,7 +174,6 @@
       smaller (&lt;). The returned value is a boolean value and can be either True or False.
       The expressions on both sides of the comparison are evaluated first and then compared.
     </p>
-    <button onclick="readMore(this)">Read More</button>
   </div>
 
   <div class="container">
@@ -224,7 +215,6 @@
       use mathmatical and comparison operators on the input, to test wheter the input is
       divisable by two or not.
     </p>
-    <button onclick="readMore(this)">Read More</button>
   </div>
 
   <div class="container">
@@ -267,7 +257,6 @@
       code. This code will be executed when the condition is False.<br>
       In the code above it is used to make more understandable output.
     </p>
-    <button onclick="readMore(this)">Read More</button>
   </div>
 
 
@@ -323,7 +312,6 @@
       An if-statement can be inside another if-statement. This can be nested as much as you need<br>
       In the code above it is used to determine in which categorie to put the coordinate.
     </p>
-    <button onclick="readMore(this)">Read More</button>
   </div>
 
 
@@ -362,12 +350,11 @@
     </div>
 
     <p class="description">
-      Boolean values can be connected using logical<br>
+      Boolean values can be connected using logical operators.<br>
       "and" results in True if both values were True.<br>
       "or" results in True if either of the two values were True.<br>
       "not" inverts on value.
     </p>
-    <button onclick="readMore(this)">Read More</button>
   </div>
 
 
@@ -420,7 +407,6 @@
       we divide the input and print the factor. If there was no divisor we can move on counting up.
       This way we get all primefactors and their occurance.
     </p>
-    <button onclick="readMore(this)">Read More</button>
   </div>
 
 
@@ -451,7 +437,6 @@
       in and then something which can be iterated.
       Iteratable things include strings, like in this example or lists and many more.
     </p>
-    <button onclick="readMore(this)">Read More</button>
   </div>
 
 
@@ -486,60 +471,8 @@
       To add something to the end of the list you can write the variable name followed by a dot followed 
       by the function-name append(). Inside the parentheses you write what you want to add.<br>
     </p>
-    <button onclick="readMore(this)">Read More</button>
   </div>
 
-   <div class="container">
-    <h2 class="heading">factorial</h2>
-    <h3 class="heading">code</h3>
-    <div class="code">
-      import math<br>
-      def fact(n):<br>
-      return(math.factorial(n))<br>
-num = int(input("Enter the number:"))<br>
-f = fact(num)<br>
-print("Factorial of", num, "is", f)<br>
-    </div>
-    
-    <h3 class="heading">output</h3>
-    <div class="output">
-      Enter the number:5<br>
-Factorial of 5 is 120<br>
-    </div>
-     
-      <div class="container">
-    <h2 class="heading">Age Calculator</h2>
-    <h3 class="heading">code</h3>
-    <div class="code">
-      min_age=0<br>
-max_age=100<br>
-for i in range(1,10):<br>
-  Guess_age=int((min_age+max_age)/2)<br>
-  print("guessed age=",Guess_age)<br>
-  Ans=input("Are you "+str(Guess_age)+ " years old?")<br>
-  if Ans=="correct":<br>
-    print("perfect!")<br>
-    break<br>
-  elif Ans=='more':<br>
-    min_age=Guess_age<br>
-  elif Ans=='less':<br>
-    max_age=Guess_age<br>
-  else:<br>
-    print("your answer is wrong")<br>    
-    </div>
-    
-    <h3 class="heading">output</h3>
-    <div class="output">
-     guessed age= 50<br>
-Are you 50 years old?less<br>
-guessed age= 25<br>
-Are you 25 years old?less<br>
-guessed age= 12<br>
-Are you 12 years old?more<br>
-guessed age= 18<br>
-Are you 18 years old?correct<br>
-perfect! <br>
-    </div>
 
   <script src="pf.js"></script>
 </body>
