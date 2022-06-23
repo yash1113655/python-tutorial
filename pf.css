@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: #000000;
+    background-color: #471a1ac3;
     padding: 0%;
 }
 
@@ -13,8 +13,8 @@ body{
     height: 100%;
     background: linear-gradient(
         to bottom,
-        #00f800,
-        #2d1f7d
+        #0008f8,
+        #1f7d54
     );
     background-size: 100% 100%;
 }
@@ -27,17 +27,17 @@ body{
     padding-bottom: 2px;
     border-radius: 10px;
     background-color: rgba(0, 63, 109, 0.5);
-    border: 3px dashed #00274b;
+    border: 3px dashed #114575;
 }
 
 .heading{
-    color: #FFFFFF;
+    color: #ab8383;
     text-decoration: underline;
     font-size: 2em;
 }
 
 .code{
-    border-left: 5px solid #4e71d1;
+    border-left: 5px solid #000000;
     background: linear-gradient(
         to bottom,
         #FFFFFF,
@@ -140,3 +140,4 @@ body{
     color: #FFFFFF;
     font-size: 1.5em;
 }
+
