@@ -28,17 +28,21 @@ window.onload = function () {
         var lines = container[i].innerHTML.split("<br>").length;
         container[i].style.backgroundSize = "100% " + (height / (lines - 1) * 2) + "px";
     }
-const readMoreBtn = document.querySelector('.read-more-btn');
-const description = document.querySelector('.description');
+let noOfCharac = 150;
+let contents = document.querySelectorAll(".content");
+contents.forEach(content => {
+  if(content.textContent.length < noOfCharac){content.nextElementSibling.style.display = "none";
+}
+else{
+    let displayText = content.textContent.slice
+    (0,noOfCharac);
+    let moreText = content.textContent.slice
+    (noOfCharac);
+    content.innerHTML = '${displayText}<span
+    class="dots">...</span><span class="hide more">${moreText}</span>'
+}
+});
     
-readMoreBtn.addEventListener('click',(e)=>{
-description.classList.toggle('show-more');
-      if(readMoreBtn.innerText === 'Read More'){
-        readMoreBtn.innerText = 'Read More';
-      }else{
-         readMoreBtn.innerText = 'Read Less';
-      }
-    })
   
   }
   
