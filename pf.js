@@ -28,7 +28,7 @@ window.onload = function () {
         var lines = container[i].innerHTML.split("<br>").length;
         container[i].style.backgroundSize = "100% " + (height / (lines - 1) * 2) + "px";
     }
-let noOfCharac = 300;
+let noOfCharac = 30;
 let contents = document.querySelectorAll(".content");
 contents.forEach(content => {
   if(content.textContent.length < noOfCharac){content.nextElementSibling.style.display = "none";
