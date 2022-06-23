@@ -34,9 +34,9 @@ const description = document.querySelector('.description');
 readMoreBtn.addEventListener('click',(e)=>{
 description.classList.toggle('show-more');
       if(readMoreBtn.innerText === 'Read More'){
-        readMoreBtn.innerText = 'Read Less';
+        readMoreBtn.innerText = 'Read More';
       }else{
-         readMoreBtn.innerText = 'Read More';
+         readMoreBtn.innerText = 'Read Less';
       }
     })
   
