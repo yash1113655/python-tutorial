@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: #561212c3;
+    background-color: #c3bbbbc3;
     padding: 0%;
 }
 
@@ -26,8 +26,8 @@ body{
     padding-top: 1px;
     padding-bottom: 2px;
     border-radius: 10px;
-    background-color: rgba(78, 60, 60, 0.5);
-    border: 3px dashed #a89292;
+    background-color: rgba(132, 95, 95, 0.5);
+    border: 3px dashed #1c4d64;
 }
 
 .heading{
@@ -100,7 +100,7 @@ body{
 }
 .read-more-btn{
   padding: 15px 60px;
-  background-color :rgb(255, 255, 255);
+  background-color :rgb(7, 7, 7);
   color:rgb(255, 251, 251);
   border: none;
   outline: none;
