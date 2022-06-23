@@ -13,8 +13,8 @@ body{
     height: 100%;
     background: linear-gradient(
         to bottom,
-        #000000,
-        #080808
+        #d0bebe,
+        #9f2929
     );
     background-size: 100% 100%;
 }
@@ -26,24 +26,24 @@ body{
     padding-top: 1px;
     padding-bottom: 2px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 3px dashed #000000;
+    background-color: rgba(11, 11, 11, 0.5);
+    border: 3px dashed #a89292;
 }
 
 .heading{
-    color: #fffcfc38;
+    color: #fff7f7;
     text-decoration: underline;
     font-size: 2em;
 }
 
 .code{
-    border-left: 5px solid #0e0d0d;
+    border-left: 5px solid #ab3939;
     background: linear-gradient(
         to bottom,
-        #000000,
-        #0f0f0f 50%,
-        #090909 50%,
-        #000000
+        #988686,
+        #ac7171 50%,
+        #5983c2 50%,
+        #5a4747
     );
     background-size: 100% 36px;
     border-radius: 5px;
