@@ -127,5 +127,6 @@ button {
     border: none;
     outline: none;
     color: rgb(242, 234, 234);
+    color:var(--primary);
     font-size: 20px;
     padding: 10px;}
