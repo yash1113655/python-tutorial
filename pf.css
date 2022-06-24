@@ -27,7 +27,7 @@ body{
     padding-bottom: 2px;
     border-radius: 10px;
     background-color: rgba(203, 168, 168, 0.5);
-    border: 3px dashed #0089c9;
+    border: 3px dashed #e5edf1;
 }
 
 .heading{
@@ -136,7 +136,7 @@ button{
 
 #author{
     margin-top: 0px;
-    color: #1b5e6f;
+    color: #cadfe4;
     margin-bottom: 0px;
     font-size: 1.2em;
 }
