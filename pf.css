@@ -100,7 +100,7 @@ body{
 .description button{
            padding: 10px;
            background-color: #ff0268;
-           color: #ffffff;
+           color: #c6aaaa;
            border: none;
            cursor: pointer;
 }
@@ -110,7 +110,15 @@ body{
 .hide{
     display: none;
 }
-    
+#more{display: none;}
+button{
+   background-color:#0089c9;
+   border:none;
+   outline:none;
+   color:white;
+   font-size: 30px;
+   padding: 5px;
+}    
 
 #titleContainer{
     padding: 5px;
