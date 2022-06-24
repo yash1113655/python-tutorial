@@ -123,15 +123,34 @@
     <p class="description">
       Variables can be defined by writing the name you what to give them followed by an equal-sign
       followed by their value.<br>
-      Assining new values works exactly the same. When you want to add(+), subtract(-), multiply(*),
+      <span id="dots">....</span><span id="more"></span>Assining new values works exactly the same. When you want to add(+), subtract(-), multiply(*),
       divide(/), whole-divide(//) or do modulo(%) on your variable, you can either write that your variable is equal
       to an expression, which will be evaluated and then assigned to the variable or you can write
       it shorter by writing the variable name followed by the operator followed by an expression.<br>
       The modulo-operator returns the remainder of an division.
       The 'normal' divison results in an floating point value, whereas whole-division results in
-      integer values (if the numbers were integer).
+      integer values (if the numbers were integer).</span>
     </p>
-    <button onclick="readMore(this)">Read More</button>
+    <button onclick="read()" id="myBtn">Read More</button>
+    <script type="text/javascript">
+      var i=0;
+    function read() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+    </script> 
+    
   </div>
 
   <div class="container">
@@ -157,13 +176,31 @@
 
     <p class="description">
       Strings are a chain of characters(Symbols). A String can be created with single or
-      double quotes.<br>
+      double quotes.<br><span id="dots">....</span><span id="more">
       The mathmatical operators work diffrently on Strings. Adding Strings results in a longer
       String. Multiplying a String by a number makes the String repeat that many times.
       Adding a String with a number results in an error.
-      To change a number to a String you can use str(). To do the reverse you can use int().
+      To change a number to a String you can use str(). To do the reverse you can use int().</span>
     </p>
-    <button onclick="readMore(this)">Read More</button>
+    <button onclick="read()" id="myBtn">Read More</button>
+    <script type="text/javascript">
+      var i=0;
+    function read() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+    </script> 
   </div>
 
   <div class="container">
@@ -191,10 +228,28 @@
 
     <p class="description">
       Using comparison operators you can test for equality (==), inequality (!=) or greater (&gt;) or
-      smaller (&lt;). The returned value is a boolean value and can be either True or False.
-      The expressions on both sides of the comparison are evaluated first and then compared.
+      smaller (&lt;). The returned value<span id="dots">....</span><span id="more"> is a boolean value and can be either True or False.
+      The expressions on both sides of the comparison are evaluated first and then compared.</span>
     </p>
-    <button onclick="readMore(this)">Read More </button>
+    <button onclick="read()" id="myBtn">Read More</button>
+    <script type="text/javascript">
+      var i=0;
+    function read() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+    </script> 
   </div>
 
   <div class="container">
@@ -231,12 +286,30 @@
 
     <p class="description">
       Using input() you can take an String as input. You can add an optional argument which
-      will tell other users of your program, what to input.
+      will tell other users of your program, what to input.<span id="dots">....</span><span id="more">
       In the above code we take an input, then we convert it to an int value, so we can
       use mathmatical and comparison operators on the input, to test wheter the input is
-      divisable by two or not.
+      divisable by two or not.</span>
     </p>
-    <button onclick="readMore(this)">Read More</button>
+    <button onclick="read()" id="myBtn">Read More</button>
+    <script type="text/javascript">
+      var i=0;
+    function read() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+    </script> 
   </div>
 
   <div class="container">
@@ -272,14 +345,32 @@
 
     <p class="description">
       An if-statement starts with the word 'if', followed by something which can be evaluated
-      to be True or False followed by a ':'. They are used to execute diffrent code when certain conditions
+      to be True or False followed by a ':'.<span id="dots">....</span><span id="more"> They are used to execute diffrent code when certain conditions
       are True. The code which should be executed if the condition was True has to be
       directly after the ':' in the next line. This code has to be indeted with whitespaces
       or a tab. If needed you can add an 'else:' afterwards with another indented block of
       code. This code will be executed when the condition is False.<br>
-      In the code above it is used to make more understandable output.
+      In the code above it is used to make more understandable output.</span>
     </p>
-    <button onclick="readMore(this)">Read More</button>
+    <button onclick="read()" id="myBtn">Read More</button>
+    <script type="text/javascript">
+      var i=0;
+    function read() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+    </script> 
   </div>
 
 
@@ -426,11 +517,11 @@
     <p class="description">
       while-loops work exactly like if-statements, except instead of moving on to the code after it, the 
       condition is tested again and the code run again if it was True. This can be repeated as 
-      many times as needed.<br>
+      many times as needed.<br><span id="dots">....</span><span id="more">
       Be careful to not create infinite loops!<br>
       In the code above we use a variable to count up to the user input. Everytime we find a divisor, 
       we divide the input and print the factor. If there was no divisor we can move on counting up.
-      This way we get all primefactors and their occurance.
+      This way we get all primefactors and their occurance.</span>
     </p>
     <button onclick="readMore(this)">Read More</button>
   </div>
