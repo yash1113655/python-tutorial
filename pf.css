@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: #c3bbbbc3;
+    background-color: #090909c3;
     padding: 0%;
 }
 
@@ -13,7 +13,7 @@ body{
     height: 100%;
     background: linear-gradient(
         to bottom,
-        #150d0d,
+        #ffffff,
         #000000
     );
     background-size: 100% 100%;
@@ -26,7 +26,7 @@ body{
     padding-top: 1px;
     padding-bottom: 2px;
     border-radius: 10px;
-    background-color: rgba(203, 168, 168, 0.5);
+    background-color: rgb(255, 255, 255, 255);
     border: 3px dashed #e5edf1;
 }
 
@@ -99,7 +99,7 @@ body{
 }
 .description button{
            padding: 10px;
-           background-color: #c4b8bc;
+           background-color: #e4d7db;
            color: #c6aaaa;
            border: none;
            cursor: pointer;
@@ -116,8 +116,8 @@ button{
    border:none;
    outline:none;
    color:white;
-   font-size: 30px;
-   padding: 5px;
+   font-size: 20px;
+   padding: 10px;
 }    
 
 #titleContainer{
