@@ -1,25 +1,21 @@
-body{
+body {
     margin: 0px;
     background-color: #090909c3;
     padding: 0%;
 }
 
-#background{
+#background {
     z-index: -1;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(
-        to bottom,
-        #ffffff,
-        #000000
-    );
+    background: linear-gradient( to bottom, #ffffff, #000000);
     background-size: 100% 100%;
 }
 
-.container{
+.container {
     margin: 20px;
     padding-left: 15px;
     padding-right: 15px;
@@ -27,24 +23,18 @@ body{
     padding-bottom: 2px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255, 255);
-    border: 3px dashed #e5edf1;
+    border: 3px dashed #e6f2f2;
 }
 
-.heading{
-    color: #f1ededca;
+.heading {
+    color: #121212ca;
     text-decoration: underline;
     font-size: 2em;
 }
 
-.code{
-    border-left: 5px solid #f6e8e8;
-    background: linear-gradient(
-        to bottom,
-        #d1c2c2,
-        #3d3939 50%,
-        #dbdfe3 50%,
-        #e6b3b3
-    );
+.code {
+    border-left: 5px solid #070606;
+    background: white;
     background-size: 100% 36px;
     border-radius: 5px;
     padding-left: 3px;
@@ -54,15 +44,9 @@ body{
     font-size: 16px;
 }
 
-.input{
+.input {
     border-left: 5px solid #47545b;
-    background: linear-gradient(
-        to bottom,
-        #FFFFFF,
-        #FFFFFF 50%,
-        #DDDDDD 50%,
-        #DDDDDD
-    );
+    background: linear-gradient( to bottom, #FFFFFF, #FFFFFF 50%, #DDDDDD 50%, #DDDDDD);
     background-size: 100% 36px;
     border-radius: 5px;
     padding-left: 3px;
@@ -72,15 +56,9 @@ body{
     font-size: 16px;
 }
 
-.output{
+.output {
     border-left: 5px solid #081c29;
-    background: linear-gradient(
-        to bottom,
-        #FFFFFF,
-        #FFFFFF 50%,
-        #DDDDDD 50%,
-        #DDDDDD
-    );
+    background: linear-gradient( to bottom, #FFFFFF, #FFFFFF 50%, #DDDDDD 50%, #DDDDDD);
     background-size: 100% 36px;
     border-radius: 5px;
     padding-left: 3px;
@@ -90,43 +68,50 @@ body{
     font-size: 16px;
 }
 
-.description{
-           font-family: "Poppins",sans-serif;
+.description {
+    font-family: "Poppins", sans-serif;
+}
 
+.description p {
+    font-size: 14px;
 }
-.description p{
-           font-size: 14px;
+
+.description button {
+    padding: 10px;
+    background-color: #e4d7db;
+    color: #c6aaaa;
+    border: none;
+    cursor: pointer;
 }
-.description button{
-           padding: 10px;
-           background-color: #e4d7db;
-           color: #c6aaaa;
-           border: none;
-           cursor: pointer;
+
+.description:not(:last-child) {
+    margin-bottom: 50px;
 }
-.description:not(:last-child){
-           margin-bottom: 50px;
-}
-.hide{
+
+.hide {
     display: none;
 }
-#more{display: none;}
-button{
-   background-color:#e1eaee;
-   border:none;
-   outline:none;
-   color:white;
-   font-size: 20px;
-   padding: 10px;
-}    
 
-#titleContainer{
+#more {
+    display: none;
+}
+
+button {
+    background-color: #e1eaee;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#titleContainer {
     padding: 5px;
     text-align: center;
     border-radius: 5px;
 }
 
-#title{
+#title {
     text-decoration: underline;
     display: inline-block;
     margin-top: 10px;
@@ -134,14 +119,14 @@ button{
     color: #ffffff;
 }
 
-#author{
+#author {
     margin-top: 0px;
     color: #cadfe4;
     margin-bottom: 0px;
     font-size: 1.2em;
 }
 
-#tableOfContents{
+#tableOfContents {
     color: #ffffff;
     font-size: 1.5em;
 }
