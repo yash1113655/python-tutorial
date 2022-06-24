@@ -26,7 +26,7 @@ body{
     padding-top: 1px;
     padding-bottom: 2px;
     border-radius: 10px;
-    background-color: rgba(9, 42, 66, 0.5);
+    background-color: rgba(0, 63, 109, 0.5);
     border: 3px dashed #00274b;
 }
 
@@ -123,10 +123,9 @@ body{
 }
 
 button {
-    background-color: #0d0d0d;
+    background-color: #030303;
     border: none;
     outline: none;
-    color: rgb(242, 234, 234);
-    color:var(--primary);
+    color: rgb(233, 213, 213);
     font-size: 20px;
     padding: 10px;}
