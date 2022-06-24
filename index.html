@@ -59,14 +59,31 @@
     
     <p class="description">
       The print-statement accepts any number arguments inside the parentheses seperated by
-      commas.4 The arguments get printed to the console seperated by spaces and then at the end by default an line break is placed. <br>
+      commas.<span id="dots">....</span><span id="more">4 The arguments get printed to the console seperated by spaces and then at the end by default an line break is placed. <br>
       To change the default value at the end, you introduce one argument with end="".
       The print-statement can print numbers and Strings(multiple characters inside quotationmarks).
       Forgeting the quotationmarks in the print-statment often leds to errors, unless there is a
-      variable with that name, then the current value of the variable is printed.
+      variable with that name, then the current value of the variable is printed.</span>
     </p>
-    <button onclick="readMore(this)">Read More</button>
+    <button type="button" id="read onclick="read()>Read More</button>
+    <script type="text/javascript">
+      var i=0;
+      function read(){
+        if(!i){
+          document.getElementById("more").style.display = "inline";
+          document.getElementById("dots").style.display = "none";
+          document.getElementById("read").innerHTML="Read Less";
+          i=1;
+        }
+      }
+      else{
+          document.getElementById("more").style.display = "none";
+          document.getElementById("dots").style.display = "inline";
+          document.getElementById("read").innerHTML = "Read More";
+        i=0;}
+    </script> 
   </div>
+
 
   <div class="container">
     <h2 class="heading">variables - integers and floats</h2>
